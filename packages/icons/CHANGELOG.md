@@ -1,6 +1,13 @@
 # Change Log - @uifabric/icons
 
-This log was last generated on Mon, 18 Feb 2019 13:38:30 GMT and should not be manually modified.
+This log was last generated on Thu, 14 Mar 2019 19:59:41 GMT and should not be manually modified.
+
+## 6.5.0
+Thu, 14 Mar 2019 19:59:41 GMT
+
+### Minor changes
+
+- Add new icons
 
 ## 6.4.0
 Mon, 18 Feb 2019 13:38:30 GMT

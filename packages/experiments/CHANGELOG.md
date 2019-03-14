@@ -1,6 +1,13 @@
 # Change Log - @uifabric/experiments
 
-This log was last generated on Wed, 13 Mar 2019 00:42:29 GMT and should not be manually modified.
+This log was last generated on Thu, 14 Mar 2019 19:59:41 GMT and should not be manually modified.
+
+## 6.64.0
+Thu, 14 Mar 2019 19:59:41 GMT
+
+### Minor changes
+
+- Button: Separating MenuButton and SplitButton as variants to decouple ContextualMenu from Button.
 
 ## 6.63.1
 Wed, 13 Mar 2019 00:42:29 GMT

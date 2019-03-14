@@ -2,6 +2,97 @@
   "name": "office-ui-fabric-react",
   "entries": [
     {
+      "version": "6.157.0",
+      "tag": "office-ui-fabric-react_v6.157.0",
+      "date": "Thu, 14 Mar 2019 19:59:41 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Use codepen loader in examples",
+            "author": "Elizabeth Craig <ecraig12345@gmail.com>",
+            "commit": "faeffcb5cc3b937dd45edc0a4188eebd987b0048"
+          },
+          {
+            "comment": "Nav: Fix selection state to only check URL if state.selectedKey is undefined",
+            "author": "Eddie Liu <leddie24@gmail.com>",
+            "commit": "ee42d7653d786d834dd193fdfa7f8d4033371507"
+          },
+          {
+            "comment": "Fix combobox behaviour: multiple selections are now correctly shown in dropdown",
+            "author": "Sebastian Mattar <sebastian.mattar@gmail.com>",
+            "commit": "1b4f237c33943c2c28c04b631cdbd0dc594466da"
+          },
+          {
+            "comment": "TeachingBubble examples: separate onDismiss into onDismiss and onShow",
+            "author": "Natalie Ethell <naethell@microsoft.com>",
+            "commit": "e058e8eec831db20830922af74f8e5c259f2ffdb"
+          },
+          {
+            "comment": "Fix color contrast ratio of unchecked Rating stars",
+            "author": "Aneesha Kommineni <aneeshak@microsoft.com>",
+            "commit": "5b97391e4d5b0667d1e7f4c22b27ed2a6cb57637"
+          },
+          {
+            "comment": "Turn IBasePickerSuggestionsProps into a Pick<> type",
+            "author": "Max <mhuan13@gmail.com>",
+            "commit": "cebdd240c472974bbfb1db44646cc7c82eeec9a1"
+          },
+          {
+            "comment": "Drop space from DetailsList header aria-labeledby",
+            "author": "Nabil Benabbou <benabbon@users.noreply.github.com>",
+            "commit": "66e6b83321418dee525fb0a26e3e651dce2ceed9"
+          },
+          {
+            "comment": "HoverCard: fixes the native event listeners assignment when the target prop is updated.",
+            "author": "Vitalie Braga <vitaliebraga@gmail.com>",
+            "commit": "96ae5262de19436a88d6ecba2b85c6ad000f12dc"
+          }
+        ],
+        "minor": [
+          {
+            "comment": "DetailsHeader: Add ariaLabelForToggleAllGroupsButton to IDetailsHeaderProps",
+            "author": "Eddie Liu <leddie24@gmail.com>",
+            "commit": "8f1eb40d5f66cf69d51e7251ae13ffe2b031e276"
+          },
+          {
+            "comment": "Add new icons to OUIFR API",
+            "author": "Peter Jahn <pejahn@microsoft.com>",
+            "commit": "b97706feb6c1e220399aadeb6f201661156a7f53"
+          },
+          {
+            "comment": "SpinButton: label prop should be marked as optional",
+            "author": "Kevin Coughlin <kevintcoughlin@gmail.com>",
+            "commit": "aaa6960951d5470e4a0c66ada969350008eafdd5"
+          },
+          {
+            "comment": "Rating: unchecked stars should be unfilled.",
+            "author": "Aneesha Kommineni <aneeshak@microsoft.com>",
+            "commit": "5b97391e4d5b0667d1e7f4c22b27ed2a6cb57637"
+          }
+        ],
+        "none": [
+          {
+            "comment": "Image: Fix typo in width prop doc block",
+            "author": "Kevin Coughlin <kevintcoughlin@gmail.com>",
+            "commit": "21843475650a58ed084ce0f88b7ccf5b8bb115ac"
+          },
+          {
+            "comment": "Text: add tests",
+            "author": "Natalie Ethell <naethell@microsoft.com>",
+            "commit": "c4c1d377c6c271b91feb8785869d71e2effd661a"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@uifabric/icons\" from `>=6.4.0 <7.0.0` to `>=6.5.0 <7.0.0`"
+          },
+          {
+            "comment": "Updating dependency \"@uifabric/webpack-utils\" from `>=0.7.4 <1.0.0` to `>=0.8.0 <1.0.0`"
+          }
+        ]
+      }
+    },
+    {
       "version": "6.156.0",
       "tag": "office-ui-fabric-react_v6.156.0",
       "date": "Wed, 13 Mar 2019 00:42:29 GMT",
