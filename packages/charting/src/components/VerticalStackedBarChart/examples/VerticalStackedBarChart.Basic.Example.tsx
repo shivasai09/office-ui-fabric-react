@@ -126,10 +126,10 @@ export class VerticalStackedBarChartBasicExample extends React.Component<{}, IVe
     const data: IVerticalStackedChartProps[] = [
       { chartData: firstChartPoints, xAxisPoint: 0 },
       { chartData: secondChartPoints, xAxisPoint: 20 },
-      { chartData: thirdChartPoints, xAxisPoint: 40 },
-      { chartData: firstChartPoints, xAxisPoint: 60 },
-      { chartData: fourthChartPoints, xAxisPoint: 80 },
-      { chartData: firstChartPoints, xAxisPoint: 100 },
+      // { chartData: thirdChartPoints, xAxisPoint: 40 },
+      // { chartData: firstChartPoints, xAxisPoint: 60 },
+      // { chartData: fourthChartPoints, xAxisPoint: 80 },
+      // { chartData: firstChartPoints, xAxisPoint: 100 },
     ];
 
     const rootStyle = { width: `${this.state.width}px`, height: `${this.state.height}px` };
@@ -143,6 +143,7 @@ export class VerticalStackedBarChartBasicExample extends React.Component<{}, IVe
         <div style={rootStyle}>
           <VerticalStackedBarChart
             data={data}
+            yAxisTickCount={3}
             height={this.state.height}
             width={this.state.width}
             chartLabel="Card title"
